@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- =====================================================
+       METADATA
+       ===================================================== -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CIDIA — Grupo de Investigación en Ciencia de Datos e Inteligencia Artificial Aplicada.">
+
+  <title>CIDIA | Ciencia de Datos e Inteligencia Artificial</title>
+
+  <!-- =====================================================
+       FONTS
+       ===================================================== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+  <!-- =====================================================
+       SIDEBAR
+       ===================================================== -->
+  <aside class="sidebar" id="sidebar">
+
+    <!-- Brand -->
+    <a class="brand" href="#home">
+      <span class="brand-symbol">CI</span>
+
+      <span>
+        <strong>CIDIA</strong>
+        <small>Grupo de Investigación</small>
+      </span>
+    </a>
+
+    <!-- Navigation -->
+    <nav class="side-nav" aria-label="Navegación principal">
+
+      <a class="active" href="#home">
+        <span>01</span>
+        Inicio
+      </a>
+
+      <p>Investigación</p>
+
+      <a href="#research">
+        <span>02</span>
+        Líneas
+      </a>
+
+      <a href="#projects">
+        <span>03</span>
+        Proyectos
+      </a>
+
+      <a href="#publications">
+        <span>04</span>
+        Publicaciones
+      </a>
+
+      <p>Comunidad</p>
+
+      <a href="#people">
+        <span>05</span>
+        Equipo
+      </a>
+
+      <a href="#seedbeds">
+        <span>06</span>
+        Semilleros
+      </a>
+
+      <p>Recursos</p>
+
+      <a href="page.html?content=pages/open-science">
+        <span>07</span>
+        Ciencia abierta
+      </a>
+
+      <a href="page.html?content=pages/about">
+        <span>08</span>
+        Sobre CIDIA
+      </a>
+
+    </nav>
+
+    <!-- Sidebar footer -->
+    <div class="sidebar-bottom">
+
+      <div class="language">
+        <a class="active" href="index.html">ES</a>
+        <span>/</span>
+        <a href="#" title="Versión inglesa por configurar">EN</a>
+      </div>
+
+      <small>
+        Institución Universitaria<br>
+        Pascual Bravo · Medellín
+      </small>
+
+    </div>
+
+  </aside>
+
+
+  <!-- =====================================================
+       MOBILE HEADER
+       ===================================================== -->
+  <header class="mobile-header">
+
+    <a class="mobile-brand" href="#home">CIDIA</a>
+
+    <button
+      id="menuToggle"
+      aria-label="Abrir navegación"
+      aria-expanded="false">
+      ☰
+    </button>
+
+  </header>
+
+
+  <!-- =====================================================
+       MAIN SITE
+       ===================================================== -->
+  <main class="site-shell">
+
+
+    <!-- ===================================================
+         01. HERO
+         =================================================== -->
+    <section class="hero" id="home">
+
+      <!-- Hero content -->
+      <div class="hero-content">
+
+        <p class="eyebrow">
+          INVESTIGACIÓN · DATOS · IA · VISIÓN
+        </p>
+
+        <h1>
+          Ciencia que convierte
+          <span>datos</span>
+          en
+          <span>inteligencia.</span>
+        </h1>
+
+        <p class="hero-lead">
+          CIDIA conecta investigación, formación y desarrollo tecnológico
+          para crear soluciones basadas en ciencia de datos, inteligencia
+          artificial, visión computacional y tecnologías emergentes.
+        </p>
+
+        <div class="hero-actions">
+
+          <a class="button primary" href="#research">
+            Explorar investigación
+          </a>
+
+          <a class="button ghost" href="page.html?content=pages/about">
+            Conocer CIDIA
+          </a>
+
+        </div>
+
+        <div class="hero-meta">
+          <span>Institución Universitaria Pascual Bravo</span>
+          <span>Medellín · Colombia</span>
+        </div>
+
+      </div>
+
+
+      <!-- Research orbit -->
+      <div
+        class="research-orbit"
+        aria-label="Ecosistema de investigación CIDIA">
+
+        <div class="orbit orbit-a"></div>
+        <div class="orbit orbit-b"></div>
+        <div class="orbit orbit-c"></div>
+
+        <div class="pulse"></div>
+
+        <div class="node center">
+          <strong>CIDIA</strong>
+          <small>Research Lab</small>
+        </div>
+
+        <div class="node node-ai">
+          <b>IA</b>
+          <span>Inteligencia<br>Artificial</span>
+        </div>
+
+        <div class="node node-data">
+          <b>DS</b>
+          <span>Ciencia<br>de Datos</span>
+        </div>
+
+        <div class="node node-vision">
+          <b>CV</b>
+          <span>Visión<br>Computacional</span>
+        </div>
+
+        <div class="node node-tech">
+          <b>TE</b>
+          <span>Tecnologías<br>Emergentes</span>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===================================================
+         02. CIDIA EN CIFRAS
+         =================================================== -->
+    <section class="stats-strip" aria-label="CIDIA en cifras">
+
+      <article>
+        <strong id="statProjects">—</strong>
+        <span>Proyectos</span>
+      </article>
+
+      <article>
+        <strong id="statPublications">—</strong>
+        <span>Publicaciones</span>
+      </article>
+
+      <article>
+        <strong id="statPeople">—</strong>
+        <span>Integrantes</span>
+      </article>
+
+      <article>
+        <strong>4</strong>
+        <span>Líneas de investigación</span>
+      </article>
+
+    </section>
+
+
+    <!-- ===================================================
+         03. INTRODUCCIÓN
+         =================================================== -->
+    <section class="light-section intro-section">
+
+      <div class="section-kicker">
+        CONOCIMIENTO APLICADO
+      </div>
+
+      <div class="intro-grid">
+
+        <h2>
+          Investigar, experimentar y transferir.
+        </h2>
+
+        <div>
+
+          <p>
+            Trabajamos en problemas donde los datos y la computación pueden
+            producir nuevo conocimiento, herramientas y capacidades para la
+            academia, la industria y la sociedad.
+          </p>
+
+          <a
+            class="text-link"
+            href="page.html?content=pages/about">
+            Nuestra identidad y propósito
+            <span>↗</span>
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===================================================
+         04. LÍNEAS DE INVESTIGACIÓN
+         =================================================== -->
+    <section class="light-section" id="research">
+
+      <div class="section-heading">
+
+        <div>
+          <p class="eyebrow dark">01 / INVESTIGACIÓN</p>
+          <h2>Líneas de investigación</h2>
+        </div>
+
+        <p>
+          Cuatro frentes que articulan nuestras capacidades de
+          investigación y desarrollo.
+        </p>
+
+      </div>
+
+
+      <div class="research-cards">
+
+        <!-- Artificial Intelligence -->
+        <a
+          class="research-card"
+          href="page.html?content=research/artificial-intelligence">
+
+          <span class="card-no">01</span>
+
+          <div class="card-icon">AI</div>
+
+          <h3>Inteligencia Artificial</h3>
+
+          <p>
+            Machine learning, deep learning, IA generativa
+            y sistemas inteligentes.
+          </p>
+
+          <span class="card-arrow">↗</span>
+
+        </a>
+
+
+        <!-- Data Science -->
+        <a
+          class="research-card"
+          href="page.html?content=research/data-science">
+
+          <span class="card-no">02</span>
+
+          <div class="card-icon">DS</div>
+
+          <h3>Ciencia de Datos</h3>
+
+          <p>
+            Analítica, modelado predictivo, ingeniería de datos
+            y toma de decisiones.
+          </p>
+
+          <span class="card-arrow">↗</span>
+
+        </a>
+
+
+        <!-- Computer Vision -->
+        <a
+          class="research-card"
+          href="page.html?content=research/computer-vision">
+
+          <span class="card-no">03</span>
+
+          <div class="card-icon">CV</div>
+
+          <h3>Visión Computacional</h3>
+
+          <p>
+            Procesamiento de imágenes, detección,
+            reconocimiento y análisis visual.
+          </p>
+
+          <span class="card-arrow">↗</span>
+
+        </a>
+
+
+        <!-- Emerging Technologies -->
+        <a
+          class="research-card"
+          href="page.html?content=research/emerging-technologies">
+
+          <span class="card-no">04</span>
+
+          <div class="card-icon">ET</div>
+
+          <h3>Tecnologías Emergentes</h3>
+
+          <p>
+            Computación emergente, automatización,
+            edge AI e innovación aplicada.
+          </p>
+
+          <span class="card-arrow">↗</span>
+
+        </a>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===================================================
+         05. PROYECTOS
+         =================================================== -->
+    <section class="dark-band" id="projects">
+
+      <div class="section-heading inverse">
+
+        <div>
+          <p class="eyebrow">02 / PROYECTOS</p>
+          <h2>Investigación</h2>
+        </div>
+
+        <p>
+          Proyectos que conectan preguntas de investigación
+          con prototipos, datos y soluciones.
+        </p>
+
+      </div>
+
+      <!-- Generated by main.js -->
+      <div class="project-grid" id="projectGrid">
+        <p class="loading">Cargando proyectos…</p>
+      </div>
+
+    </section>
+
+
+    <!-- ===================================================
+         06. PUBLICACIONES
+         =================================================== -->
+    <section class="light-section" id="publications">
+
+      <div class="section-heading">
+
+        <div>
+          <p class="eyebrow dark">03 / PRODUCCIÓN</p>
+          <h2>Publicaciones recientes</h2>
+        </div>
+
+        <p>
+          Resultados académicos derivados del trabajo
+          de investigadores y estudiantes.
+        </p>
+
+      </div>
+
+      <!-- Generated by main.js -->
+      <div class="publication-list" id="publicationList">
+        <p class="loading">Cargando publicaciones…</p>
+      </div>
+
+    </section>
+
+
+    <!-- ===================================================
+         07. COMUNIDAD
+         =================================================== -->
+    <section class="soft-section" id="people">
+
+      <div class="section-heading">
+
+        <div>
+          <p class="eyebrow dark">04 / COMUNIDAD</p>
+          <h2>Personas detrás de la investigación</h2>
+        </div>
+
+        <p>
+          Una comunidad interdisciplinaria que aprende,
+          investiga y construye en conjunto.
+        </p>
+
+      </div>
+
+
+      <!-- Featured members
+           Generated from people.json by main.js -->
+      <div class="people-grid" id="peopleGrid">
+        <p class="loading">Cargando equipo…</p>
+      </div>
+
+
+      <!-- =================================================
+           ADDITIONAL MEMBERS DIRECTORY
+           ================================================= -->
+      <div class="community-directory">
+        <div class="community-directory-header">
+          <div>
+            <span class="mono-label">COMUNIDAD CIDIA</span>
+            <h3>Otros integrantes</h3>
+          </div>
+          <span class="community-count" id="communityCount">— MIEMBROS</span>
+        </div>
+
+        <div class="community-members" id="communityMembers">
+          <p class="loading">Cargando integrantes…</p>
+        </div>
+      </div>
+
+    </section>
+
+
+    <!-- ===================================================
+         08. SEMILLEROS
+         =================================================== -->
+    <section class="light-section seedbeds" id="seedbeds">
+
+      <div class="section-heading">
+
+        <div>
+          <p class="eyebrow dark">05 / SEMILLEROS</p>
+          <h2>Donde comienza la investigación.</h2>
+        </div>
+
+        <p>
+          Espacios para aprender investigando, experimentar
+          con nuevas tecnologías y construir comunidad.
+        </p>
+
+      </div>
+
+
+      <div class="seedbed-grid">
+
+        <!-- CognIA -->
+        <a
+          class="seedbed-card"
+          href="page.html?content=seedbeds/cognia">
+
+          <span>01</span>
+
+          <div>
+            <small>SEMILLERO</small>
+            <h3>CognIA</h3>
+            <p>Cognición e Inteligencia Artificial.</p>
+          </div>
+
+          <b>↗</b>
+
+        </a>
+
+
+        <!-- SPC -->
+        <a
+          class="seedbed-card"
+          href="page.html?content=seedbeds/spc">
+
+          <span>02</span>
+
+          <div>
+            <small>SEMILLERO</small>
+            <h3>SPC</h3>
+            <p>Pensamiento Computacional.</p>
+          </div>
+
+          <b>↗</b>
+
+        </a>
+
+
+        <!-- SoftGirls -->
+        <a
+          class="seedbed-card"
+          href="page.html?content=seedbeds/softgirls">
+
+          <span>03</span>
+
+          <div>
+            <small>SEMILLERO</small>
+            <h3>SoftGirls</h3>
+            <p>Tecnología, desarrollo y participación de mujeres.</p>
+          </div>
+
+          <b>↗</b>
+
+        </a>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===================================================
+         09. PARTICIPA
+         =================================================== -->
+    <section class="open-call">
+
+      <div>
+
+        <p class="eyebrow">
+          CIDIA / COMUNIDAD
+        </p>
+
+        <h2>
+          ¿Quieres investigar con nosotros?
+        </h2>
+
+        <p>
+          Conecta con nuestras líneas, semilleros y proyectos.
+        </p>
+
+      </div>
+
+      <a
+        class="button primary"
+        href="page.html?content=pages/join">
+        Explorar formas de participar
+      </a>
+
+    </section>
+
+
+    <!-- ===================================================
+         10. FOOTER
+         =================================================== -->
+    <footer class="site-footer">
+
+      <div>
+        <strong>CIDIA</strong>
+
+        <p>
+          Grupo de Investigación en Ciencia de Datos
+          e Inteligencia Artificial Aplicada.
+        </p>
+      </div>
+
+      <div>
+        <small>Institución Universitaria Pascual Bravo</small>
+        <small>Medellín · Colombia</small>
+      </div>
+
+      <div>
+        <small>© 2026 CIDIA</small>
+        <small>Research · Data · AI</small>
+      </div>
+
+    </footer>
+
+  </main>
+
+
+  <!-- =====================================================
+       JAVASCRIPT
+       ===================================================== -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>

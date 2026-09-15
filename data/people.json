@@ -1,0 +1,118 @@
+
+[
+  {
+    "name": "Rubén D. Fonnegra",
+    "role": "Director grupo de investigación",
+    "area": "CIDIA",
+    "type": "DIRECTOR",
+    "featured": true,
+    "image": "assets/images/people/ruben_fonnegra.jpg",
+    "status": "active"
+  },
+  {
+    "name": "Juan Camilo Zapata",
+    "role": "Líder - Línea Ciencia de Datos",
+    "area": "Data Science",
+    "type": "LIDER DE LÍNEA",
+    "featured": true,
+    "image": "assets/images/people/juan_zapata.jpeg",
+    "status": "active"
+  },
+  {
+    "name": "Mateo Rico García",
+    "role": "Líder - Línea Visión Computacional",
+    "area": "Computer Vision",
+    "type": "LIDER DE LÍNEA",
+    "featured": true,
+    "image": "assets/images/people/Mateo-Rico.jpg",
+    "status": "active"
+  },
+  {
+    "name": "Liliana Maria García",
+    "role": "Líder - Línea Tecnologías Emergentes",
+    "area": "Emerging Technologies",
+    "type": "LIDER DE LÍNEA",
+    "featured": true,
+    "image": "assets/images/people/liliana_garcia.jpeg"
+  },
+  {
+    "name": "Ingry Natalia Gómez Miranda",
+    "role": "Investigador",
+    "area": "Ciencia de datos, Inteligencia artificial",
+    "image": "...",
+    "featured": false,
+    "status": "active"
+  },
+  {
+    "name": "Yudy Andrea Quintero",
+    "role": "Investigador",
+    "area": "Ciencia de datos, Ciencia y tecnologías emergentes",
+    "type": "MEMBER",
+    "featured": false,
+    "image": "",
+    "status": "active"
+  },
+  {
+    "name": "Arley Fernando Villa",
+    "role": "Investigador",
+    "area": "Ciencia de datos, Ciencia y tecnologías emergentes",
+    "type": "MEMBER",
+    "featured": false,
+    "image": "",
+    "status": "active"
+  },
+  {
+    "name": "Jaime Ernesto Soto",
+    "role": "Investigador",
+    "area": "Ciencia de datos, Inteligencia artificial",
+    "type": "MEMBER",
+    "featured": false,
+    "image": "",
+    "status": "active"
+  },
+  {
+    "name": "Juan Camilo David ",
+    "role": "Investigador",
+    "area": "Ciencia de datos, Inteligencia artificial",
+    "type": "MEMBER",
+    "featured": false,
+    "image": "",
+    "status": "active"
+  },
+  {
+    "name": "Javier Saldarriaga Cano",
+    "role": "Investigador",
+    "area": "Ciencia y tecnologías emergentes",
+    "type": "MEMBER",
+    "featured": false,
+    "image": "",
+    "status": "active"
+  },
+  {
+    "name": "William E. Mercado Borja ",
+    "role": "Investigador",
+    "area": "Ciencia y tecnologías emergentes",
+    "type": "MEMBER",
+    "featured": false,
+    "image": "",
+    "status": "active"
+  },
+  {
+    "name": "Nicolas Restrepo",
+    "role": "Investigador",
+    "area": "Ciencia y tecnologías emergentes",
+    "type": "MEMBER",
+    "featured": false,
+    "image": "",
+    "status": "active"
+  },
+  {
+    "name": "Alejandro Vasquez Echeverri",
+    "role": "Investigador",
+    "area": "Inteligencia artificial, Ciencia de datos",
+    "type": "MEMBER",
+    "featured": false,
+    "image": "",
+    "status": "active"
+  }
+]

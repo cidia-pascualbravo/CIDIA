@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Computer Vision for Industrial Inspection",
+    "area": "COMPUTER VISION · DEEP LEARNING",
+    "description": "Sistema experimental para detectar defectos y patrones visuales mediante modelos de visión computacional.",
+    "image": "",
+    "url": "projects/computer-vision-industrial.html"
+  },
+  {
+    "title": "Applied Machine Learning for Predictive Analytics",
+    "area": "AI · DATA SCIENCE",
+    "description": "Modelos predictivos y pipelines de aprendizaje automático orientados a problemas reales.",
+    "image": "",
+    "url": "#"
+  },
+  {
+    "title": "Research Data Lab",
+    "area": "DATA SCIENCE",
+    "description": "Exploración, curación y análisis reproducible de datos para proyectos académicos y científicos.",
+    "image": "",
+    "url": "#"
+  }
+]

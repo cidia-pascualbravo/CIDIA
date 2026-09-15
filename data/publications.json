@@ -1,0 +1,128 @@
+[
+  {
+    "year": 2026,
+    "title": "Effect of Emotional States on EEG-Based Biometric Identification: A Comparative Study of Classifiers",
+    "authors": "Carolina Maria Duque Mejia, Juan Camilo Zapata Hernandez, Eduardo Alexander Duque Grisales, Leonardo Serna Guarin, Gustavo Adolfo Londono Ossa, Miguel Alberto Becerra Botero",
+    "venue": "Bioengineering",
+    "pdf": "#",
+    "doi": "10.3390/bioengineering13060689",
+    "code": "#"
+  },
+  {
+    "year": 2026,
+    "title": "MultiPolar: A Benchmark Dataset for Digital Photoelasticity Using a Pixelated Polarization Camera",
+    "authors": "Mateo Rico Garcia",
+    "venue": "Data",
+    "pdf": "#",
+    "doi": "10.3390/data11030055",
+    "code": "#"
+  },
+  {
+    "year": 2026,
+    "title": "Self-calibrated pixel-attention autoencoder: A strategy for contrast-enhanced spectral mammography image-to-image translation",
+    "authors": "Kevin Osorno-Castillo, Rubén D Fonnegra, María Liliana Hernández, Carlos Mera-Banguero, Gloria M Díaz",
+    "venue": "Digital Health",
+    "pdf": "https://journals.sagepub.com/doi/abs/10.1177/20552076261420932",
+    "doi": "10.3390/data11030055",
+    "code": "#"
+  },
+  {
+    "year": 2025,
+    "title": "An IoV-Based Real-Time Telemetry and Monitoring System for Electric Racing Vehicles: Design, Implementation, and Field Validation",
+    "authors": "Andres Fernando Perez Gonzalez, Arley Fernando Villa Salazar, Ingry Natalia Gomez Miranda, Juan David Velasquez Gomez, Andres Felipe Romero Maya",
+    "venue": "Vehicles",
+    "pdf": "#",
+    "doi": "10.3390/vehicles7040128",
+    "code": "#"
+  },
+  {
+    "year": 2025,
+    "title": "Enhancing Multi-Objective Performance: Optimizing the Efficiency of an Electric Racing Vehicle",
+    "authors": "Ingry Natalia Gomez Miranda",
+    "venue": "World Electric Vehicle Journal",
+    "pdf": "#",
+    "doi": "10.3390/wevj16100551",
+    "code": "#"
+  },
+  {
+    "year": 2025,
+    "title": "Synthesizing late-stage contrast enhancement in breast MRI: A comprehensive pipeline leveraging temporal contrast enhancement dynamics",
+    "authors": "Ruben Dario Fonnegra Tarazona, Maria Liliana Hernandez Pena, Juan Carlos Caicedo Rueda, Gloria Mercedes Diaz Cabrera",
+    "venue": "Computers in Biology and Medicine",
+    "pdf": "#",
+    "doi": "10.1016/j.compbiomed.2025.110660",
+    "code": "#"
+  },
+  {
+    "year": 2024,
+    "title": "LA-Breast: A Latin American multiparametric breast DCE-MRI dataset with benign and malignant annotations",
+    "authors": "Ruben Dario Fonnegra Tarazona, Carlos Andres Mera Banguero, Gloria Mercedes Diaz Cabrera, Maria Liliana Hernandez Pena",
+    "venue": "Data in Brief",
+    "pdf": "#",
+    "doi": "10.1016/j.dib.2024.110995",
+    "code": "#"
+  },
+  {
+    "year": 2025,
+    "title": "Pedagogías críticas: una propuesta alternativa para la transformación de la escuela en Colombia en el siglo XXI",
+    "authors": "William Enrique Mercado Borja",
+    "venue": "Ensayos Pedagógicos",
+    "pdf": "#",
+    "doi": "10.15359/rep.20-1.4",
+    "code": "#"
+  },
+  {
+    "year": 2024,
+    "title": "Resistencia al cambio y confianza en los procesos de enseñanza para la innovación en educación secundaria y media en Colombia",
+    "authors": "William Enrique Mercado Borja, Gerzon Yair Calle Alvarez, Juancri Rusbel Barrera Navarro, Carlos Enrique Mosquera Mosquera",
+    "venue": "Perfiles Educativos",
+    "pdf": "#",
+    "doi": "10.22201/iisue.24486167e.2024.186.61478",
+    "code": "#"
+  },
+  {
+    "year": 2024,
+    "title": "Estudio de caso sobre los usos de las tecnologías digitales por el estudiante universitario durante la pandemia",
+    "authors": "Gerzon Yair Calle Alvarez, William Enrique Mercado Borja",
+    "venue": "Jangwa Pana",
+    "pdf": "#",
+    "doi": "10.21676/16574923.5506",
+    "code": "#"
+  },
+  {
+    "year": 2024,
+    "title": "Acciones innovadoras mediadas por tecnologías digitales en educación secundaria: un análisis en función del sexo y la edad del profesorado",
+    "authors": "William Enrique Mercado Borja, Gerzon Yair Calle Alvarez, Juancri Rusbel Barrera Navarro, Carlos Enrique Mosquera Mosquera",
+    "venue": "Revista Educación",
+    "pdf": "#",
+    "doi": "10.15517/revedu.v48i2.58597",
+    "code": "#"
+  },
+  {
+    "year": 2024,
+    "title": "New high sensitivity approach for a quantitative visualization of the continuous whole-field stress evolution in digital photoelasticity",
+    "authors": "Hermes Alexander Fandino Toro, Mateo Rico Garcia, Juan Carlos Brinez De Leon",
+    "venue": "Optics and Lasers in Engineering",
+    "pdf": "#",
+    "doi": "10.1016/j.optlaseng.2024.108416",
+    "code": "#"
+  },
+  {
+    "year": 2024,
+    "title": "Deep learning as a powerful tool in digital photoelasticity: Developments, challenges, and implementation",
+    "authors": "Mateo Rico Garcia, Juan Carlos Brinez De Leon, Hermes Alexander Fandino Toro, Heber Augusto Lopez Osorio",
+    "venue": "Optics and Lasers in Engineering",
+    "pdf": "#",
+    "doi": "10.1016/j.optlaseng.2024.108274",
+    "code": "#"
+  },
+  {
+    "year": 2024,
+    "title": "Optimizing Electric Racing Car Performance through Telemetry-Integrated Battery Charging: A Response Surface Analysis Approach",
+    "authors": "Ingry Natalia Gomez Miranda",
+    "venue": "World Electric Vehicle Journal",
+    "pdf": "#",
+    "doi": "10.3390/wevj15070317",
+    "code": "#"
+  }
+]
