@@ -791,32 +791,77 @@ button {
    11. PEOPLE
    ========================================================= */
 
+/* ---------------------------------------------------------
+   11.1 PEOPLE GRID
+   --------------------------------------------------------- */
+
 .people-grid {
-  grid-template-columns: repeat(5, 1fr);
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 20px;
+  align-items: stretch;
 }
+
+
+/* ---------------------------------------------------------
+   11.2 PERSON CARD
+   --------------------------------------------------------- */
 
 .person-card {
-  padding: 15px;
+  display: flex;
+  flex-direction: column;
 
-  background: white;
+  padding: 20px;
+
+  background: #ffffff;
   border: 1px solid #dde8e9;
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease;
 }
 
+.person-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--teal);
+  box-shadow: 0 12px 30px rgba(8, 43, 54, 0.08);
+}
+
+
+/* ---------------------------------------------------------
+   11.3 PROFILE IMAGE
+   --------------------------------------------------------- */
+
 .person-image {
-  aspect-ratio: 1;
-  margin-bottom: 15px;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 22px;
 
   overflow: hidden;
-  background: #dce9e9;
+  background: #edf4f4;
 }
 
 .person-image img {
+  display: block;
+
   width: 100%;
   height: 100%;
-  object-fit: cover;
+
+  /* Display the complete image without cropping */
+  object-fit: contain;
+  object-position: center;
 }
 
+/* Placeholder when no image is available */
+
 .person-image span {
+  width: 100%;
   height: 100%;
 
   display: grid;
@@ -826,21 +871,74 @@ button {
   font: 700 50px "Space Grotesk";
 }
 
+
+/* ---------------------------------------------------------
+   11.4 PERSON INFORMATION
+   --------------------------------------------------------- */
+
 .person-card small {
+  display: block;
+
+  margin-bottom: 10px;
+
   color: var(--teal-dark);
-  font: 600 9px "IBM Plex Mono";
+  font: 600 10px "IBM Plex Mono";
+
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 }
 
 .person-card h3 {
-  margin: 5px 0;
-  font: 700 16px "Space Grotesk";
+  margin: 0 0 10px;
+
+  color: var(--ink);
+  font: 700 18px/1.25 "Space Grotesk";
 }
 
 .person-card p {
   margin: 0;
+
   color: #718489;
-  font-size: 10px;
+  font-size: 12px;
+  line-height: 1.6;
 }
+
+
+/* ---------------------------------------------------------
+   11.5 RESPONSIVE
+   --------------------------------------------------------- */
+
+/* Medium screens */
+
+@media (max-width: 1200px) {
+  .people-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* Mobile screens */
+
+@media (max-width: 620px) {
+  .people-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .person-card {
+    padding: 16px;
+  }
+
+  .person-image {
+    aspect-ratio: 4 / 3;
+    margin-bottom: 18px;
+  }
+
+  .person-card h3 {
+    font-size: 17px;
+  }
+}
+   
+
 
 /* =========================================================
    11.1 COMMUNITY DIRECTORY
@@ -1380,54 +1478,102 @@ button {
 }
 
 
-/* Leader card */
+/* =========================================================
+   SEEDBED — LEADER CARD
+   ========================================================= */
+
+/* ---------------------------------------------------------
+   1. Leader container
+   --------------------------------------------------------- */
 
 .seedbed-leader {
   position: relative;
+
   display: grid;
-  grid-template-columns: 150px 1fr;
-  gap: 28px;
+  grid-template-columns: 180px minmax(0, 1fr);
   align-items: center;
+  gap: 35px;
+
   margin: 35px 0 55px;
-  padding: 25px;
+  padding: 30px;
+
   overflow: hidden;
-  background: linear-gradient(120deg, #082f39, #0a4653);
+
+  background: linear-gradient(
+    120deg,
+    #082f39 0%,
+    #0a4653 100%
+  );
+
   color: white;
 }
 
+
+/* ---------------------------------------------------------
+   2. Decorative circles
+   --------------------------------------------------------- */
+
 .seedbed-leader::after {
   content: "";
+
   position: absolute;
   width: 230px;
   height: 230px;
+
   right: -90px;
   top: -100px;
-  border: 1px solid rgba(56, 182, 161, .18);
+
+  border: 1px solid rgba(56, 182, 161, 0.18);
   border-radius: 50%;
+
   box-shadow:
-    0 0 0 35px rgba(56, 182, 161, .035),
-    0 0 0 70px rgba(56, 182, 161, .025);
+    0 0 0 35px rgba(56, 182, 161, 0.035),
+    0 0 0 70px rgba(56, 182, 161, 0.025);
+
   pointer-events: none;
 }
+
+
+/* ---------------------------------------------------------
+   3. Leader photograph
+   --------------------------------------------------------- */
 
 .seedbed-leader-photo {
   position: relative;
   z-index: 1;
-  width: 150px;
-  aspect-ratio: 1;
+
+  width: 100%;
+  aspect-ratio: 3 / 4;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   overflow: hidden;
-  background: #dce9e9;
+
+  background: rgba(255, 255, 255, 0.06);
 }
 
 .seedbed-leader-photo img {
+  display: block;
+
   width: 100%;
   height: 100%;
-  object-fit: cover;
+
+  /* Show the complete photograph */
+  object-fit: contain;
+  object-position: center;
 }
+
+
+/* ---------------------------------------------------------
+   4. Leader information
+   --------------------------------------------------------- */
 
 .seedbed-leader-info {
   position: relative;
   z-index: 1;
+  min-width: 0;
 }
 
 .seedbed-leader-info .seedbed-role {
@@ -1435,16 +1581,68 @@ button {
 }
 
 .seedbed-leader-info h3 {
-  margin: 4px 0 !important;
+  margin: 4px 0 10px !important;
+
   color: white !important;
-  font: 700 28px "Space Grotesk" !important;
+
+  font: 700 28px/1.2 "Space Grotesk" !important;
 }
 
 .seedbed-leader-info > p {
   margin: 0 0 20px;
+
   color: #a9c2c7;
   font-size: 12px;
+  line-height: 1.6;
 }
+
+
+/* ---------------------------------------------------------
+   5. Responsive — tablets
+   --------------------------------------------------------- */
+
+@media (max-width: 768px) {
+
+  .seedbed-leader {
+    grid-template-columns: 150px minmax(0, 1fr);
+    gap: 24px;
+    padding: 25px;
+  }
+
+  .seedbed-leader-info h3 {
+    font-size: 24px !important;
+  }
+
+}
+
+
+/* ---------------------------------------------------------
+   6. Responsive — mobile
+   --------------------------------------------------------- */
+
+@media (max-width: 520px) {
+
+  .seedbed-leader {
+    grid-template-columns: 1fr;
+    gap: 22px;
+    padding: 24px;
+  }
+
+  .seedbed-leader-photo {
+    width: min(100%, 220px);
+    margin: 0 auto;
+  }
+
+  .seedbed-leader-info {
+    text-align: center;
+  }
+
+  .seedbed-leader-info h3 {
+    font-size: 24px !important;
+  }
+
+}
+
 
 
 /* Email button */
@@ -1564,6 +1762,28 @@ button {
   background: #f7fbfb;
 }
 
+.button-gruplac {
+  display: inline-flex;
+  align-items: center;
+  gap: .75rem;
+  margin-top: 1.5rem;
+  padding: .85rem 1.2rem;
+  border: 1px solid rgba(8, 75, 83, .25);
+  border-radius: 4px;
+  color: #084b53;
+  background: transparent;
+  font: 700 .8rem "Manrope", sans-serif;
+  text-decoration: none;
+  transition: background .2s ease, border-color .2s ease, transform .2s ease;
+}
+
+.button-gruplac:hover {
+  background: rgba(8, 75, 83, .06);
+  border-color: #084b53;
+  transform: translateY(-2px);
+}
+
+.button-gruplac span { font-size: 1.1rem; }
 
 
 /* =========================================================

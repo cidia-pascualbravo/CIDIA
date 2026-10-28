@@ -2,23 +2,31 @@
 title: SoftGirls
 # subtitle: CognIA
 eyebrow: SEMILLERO DE INVESTIGACIÓN
-summary: Comunidad de investigación y formación orientada a fortalecer la participación de mujeres en tecnología y desarrollo de software.
+summary: Transformando el futuro de las mujeres en la tecnología desde la IU Pascual Bravo
 tags: Software, Tecnología, Comunidad
 ---
 
 # SoftGirls
 
-## Sobre el semillero
+## Sobre el grupo
 
-Espacio para aprender, investigar y crear proyectos relacionados con desarrollo de software, tecnología e innovación.
+SoftGirls es un grupo de estudio para mujeres Pascualinas de la IU Pascual Bravo que busca fortalecer las habilidades y destrezas en el mundo de la programación y pretende la incursión de herramientas y tecnologías que están a la vanguardia. Esta iniciativa nace desde el departamento de Sistemas Digitales de la Facultad de Ingeniería. 
+El grupo de estudio SoftGirls, ha desarrollado sus actividades académicas y formativas durante un periodo de dos años, consolidando un proceso continuo de crecimiento a través de encuentros semanales. 
+
+Actualmente, SoftGirls hace parte del semillero CognIA y proyecta continuar fortaleciendo espacios de formación, investigación e innovación que promuevan la participación de más mujeres en áreas STEM. A través de sus iniciativas, el grupo busca consolidarse como una comunidad que impulse el liderazgo femenino en tecnología, inspire nuevas generaciones de estudiantes y contribuya al cierre de brechas de género en el sector tecnológico y científico.
+
+De igual manera, SoftGirls reafirma su compromiso con la equidad de género, promoviendo entornos de aprendizaje inclusivos, participativos y seguros, donde las estudiantes puedan desarrollar plenamente sus capacidades académicas, profesionales y personales. La iniciativa busca visibilizar el papel de las mujeres en la tecnología, fomentar la confianza y el empoderamiento femenino, y generar oportunidades que contribuyan a una mayor representación de las mujeres en espacios de innovación, investigación y desarrollo.
+
 
 
 ## Áreas de trabajo
 
-- Area 1
-- Area 2
-- Area 3
-- Area 4
+- Formación y desarrollo de competencias tecnológicas
+- Investigación e innovación en tecnología y áreas STEM
+- Mujeres, género y tecnología
+- Relacionamiento con el sector tecnológico
+- Desarrollo profesional, liderazgo y emprendimiento
+
 
 
 <section class="seedbed-contact">
@@ -30,7 +38,7 @@ Espacio para aprender, investigar y crear proyectos relacionados con desarrollo 
 
 <div class="seedbed-leader">
 <div class="seedbed-leader-photo">
-<img src="assets/images/people/sandra_guerrero.png" alt="Nombre del líder del semillero">
+<img src="assets/images/people/Sandra-Guerrero.png" alt="Nombre del líder del semillero">
 </div>
 <div class="seedbed-leader-info">
 <span class="seedbed-role">LÍDER DEL SEMILLERO</span>
@@ -50,46 +58,88 @@ Espacio para aprender, investigar y crear proyectos relacionados con desarrollo 
 <span class="seedbed-role">COMUNIDAD</span>
 <h3>Integrantes actuales</h3>
 </div>
-<span class="seedbed-member-count">5 integrantes</span>
+<span class="seedbed-member-count">13 integrantes</span>
 </div>
 
 <div class="seedbed-table-wrap">
-<table class="seedbed-members-table">
-<thead>
-<tr>
-<th>Nombre</th>
-<th>Rol</th>
-<th>Programa / Área</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Nombre del integrante 1</td>
-<td>Estudiante investigador</td>
-<td>Ingeniería de Software</td>
-</tr>
-<tr>
-<td>Nombre del integrante 2</td>
-<td>Estudiante investigador</td>
-<td>Ingeniería de Software</td>
-</tr>
-<tr>
-<td>Nombre del integrante 3</td>
-<td>Estudiante investigador</td>
-<td>Tecnología en Desarrollo de Software</td>
-</tr>
-<tr>
-<td>Nombre del integrante 4</td>
-<td>Estudiante investigador</td>
-<td>Ciencia de Datos</td>
-</tr>
-<tr>
-<td>Nombre del integrante 5</td>
-<td>Estudiante investigador</td>
-<td>Ingeniería de Software</td>
-</tr>
-</tbody>
-</table>
+  <table class="seedbed-members-table">
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Rol</th>
+        <th>Programa / Área</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Valentina Torres Banquez</td>
+        <td>Estudiante investigador</td>
+        <td>Tecnología en Desarrollo de Software</td>
+      </tr>
+      <tr>
+        <td>Ximena Andrea Cardona López</td>
+        <td>Estudiante investigador</td>
+        <td>Tecnología en Desarrollo de Software</td>
+      </tr>
+      <tr>
+        <td>Maria Sofia Londoño Suarez</td>
+        <td>Estudiante investigador</td>
+        <td>Tecnología en Desarrollo de Software</td>
+      </tr>
+      <tr>
+        <td>Juliana Manco Herrera</td>
+        <td>Estudiante investigador</td>
+        <td>Ingeniería de Software</td>
+      </tr>
+      <tr>
+        <td>Andrea Muñoz Cano</td>
+        <td>Estudiante investigador</td>
+        <td>Ingeniería de Software</td>
+      </tr>
+      <tr>
+        <td>Salomé Garzón Flórez</td>
+        <td>Estudiante miembro</td>
+        <td>Ingeniería de Software</td>
+      </tr>
+      <tr>
+        <td>Yudy Alexandra Mayorga Beleño</td>
+        <td>Estudiante miembro</td>
+        <td>Ingeniería de Software</td>
+      </tr>
+      <tr>
+        <td>Isabella Torres Londoño</td>
+        <td>Estudiante miembro</td>
+        <td>Ingeniería de Software</td>
+      </tr>
+      <tr>
+        <td>Elizabeth Cristina Arenas Isaza</td>
+        <td>Estudiante miembro</td>
+        <td>Ingeniería de Software</td>
+      </tr>
+      <tr>
+        <td>Isabella Obando Medina</td>
+        <td>Estudiante miembro</td>
+        <td>Ingeniería de Software</td>
+      </tr>
+      <tr>
+        <td>Karol Dahiana Reyes Arango</td>
+        <td>Estudiante miembro</td>
+        <td>Ingeniería de Software</td>
+      </tr>
+      <tr>
+        <td>Katherin Daniela Cordoba Chaverra</td>
+        <td>Estudiante miembro</td>
+        <td>Ingeniería de Software</td>
+      </tr>
+      <tr>
+        <td>Estefanía Chavarria Patiño</td>
+        <td>Estudiante miembro</td>
+        <td>Ingeniería de Software</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
+
+
 </div>
 </section>
