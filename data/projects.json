@@ -1,22 +1,8 @@
 [
   {
-    "title": "Computer Vision for Industrial Inspection",
-    "area": "COMPUTER VISION · DEEP LEARNING",
-    "description": "Sistema experimental para detectar defectos y patrones visuales mediante modelos de visión computacional.",
-    "image": "",
-    "url": "projects/computer-vision-industrial.html"
-  },
-  {
-    "title": "Applied Machine Learning for Predictive Analytics",
-    "area": "AI · DATA SCIENCE",
-    "description": "Modelos predictivos y pipelines de aprendizaje automático orientados a problemas reales.",
-    "image": "",
-    "url": "#"
-  },
-  {
-    "title": "Research Data Lab",
-    "area": "DATA SCIENCE",
-    "description": "Exploración, curación y análisis reproducible de datos para proyectos académicos y científicos.",
+    "title": "Engagement, Motivation, and Learning Outcomes in CBI and EMI Language Clubs: A Comparative Study to Strengthen Bilingual Capacity in Engineering Programs at Institución Universitaria Pascual Bravo.",
+    "area": "DATA ANALYSIS · ARTIFICIAL INTELLIGENCE",
+    "description": "This project aims to analyze and compare the impact of Content-Based Instruction (CBI) and English as a Medium of Instruction (EMI) methodologies on student engagement, motivation, and learning outcomes in the context of bilingual language clubs at Institución Universitaria Pascual Bravo.",
     "image": "",
     "url": "#"
   }
